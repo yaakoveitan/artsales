@@ -8,11 +8,6 @@ A data pipeline and analysis project exploring the secondary art market through 
  
 [Masterworks](https://www.masterworks.com) is a fintech platform that allows retail investors to buy fractional shares of blue-chip artworks. This project uses their publicly accessible GraphQL API to collect historical sale data across hundreds of artists, loads it into a PostgreSQL database, and analyzes it using SQL and Power BI.
 
- 
-## Project Structure
- 
-
- 
 ## Step 1: Artist Name Extraction and Cleaning
  
 **Data source:** [Kaggle — WikiArt](https://www.kaggle.com/datasets/steubk/wikiart)
@@ -420,5 +415,13 @@ ORDER BY sale_year;
 ```
  
 ![Query 6 Results](https://github.com/user-attachments/assets/e9e9f5ff-6807-49e7-911d-88e8c72bc0fb)
+ 
+---
+
+## Step 5: Power BI Dashboard
+ 
+
+![Dashboard Page 1](https://github.com/user-attachments/assets/c63370e6-2535-43b3-a4a1-6b705438237b)
+![Dashboard Page 2](https://github.com/user-attachments/assets/7d0e0e66-1e96-4a9a-8a88-3c9fddd7e3bb)
  
 ---
